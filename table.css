@@ -1,0 +1,45 @@
+
+
+th{
+    color:#00ADF2;
+    font-weight: 600;
+}
+td{
+    color:#00ADF2 ;
+}
+table,th,td{
+    border:1px solid #E1e1e1;
+    border-collapse: collapse;
+
+}
+tr:nth-child(even){
+    background-color: rgb(250, 244, 244);
+}
+td,th{
+    padding-inline: 10px;
+    padding-block: 5px;
+}
+.btn{
+    background-color:rgb(234, 83, 98);
+    color:rgb(211, 183, 188);
+    display: flex;
+    text-align: center;
+    border:none;
+    padding: 5px;
+}
+th{
+    color:rgb(11, 176, 241);
+}
+table{
+    border-left: 5px solid rgb(5, 143, 197);
+    border-top: 30px solid rgb(5, 143, 197);
+    
+}
+td:hover{
+    background-color: bisque;
+}
+.btn:hover{
+    background-color:lightcoral;
+}
+
+
